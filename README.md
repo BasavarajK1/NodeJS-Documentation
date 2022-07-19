@@ -5,7 +5,7 @@
 - Project Overview.
 
 ### Introduction.
-In this project we used NodeJs web application to automate the infrastructure set up on AWS Cloud using Terraform. We created a VPC with subnets, route tables, internet gateway, NAT gateway, etc... We also created EKS Cluster using the same terraform. Later deployed the application in different environments like DEV, QA and PROD using Jenkins pipeline and then pushed the image to ECR. We monitored the application using the monitoring tools like Prometheus and Grafana, further we checked the logs of the application using logging tools like ElasticSearch, Fluent-bit and Kibana. For details of the source code please visit https://github.com/namrata-aatmani.
+In this project we used NodeJs web application to automate the infrastructure set up on AWS Cloud using Terraform. We created a VPC with subnets, route tables, internet gateway, NAT gateway, etc... We also created EKS Cluster using the same terraform. Later deployed the application in different environments like DEV, QA and PROD using Jenkins pipeline and then pushed the image to ECR. We monitored the application using the monitoring tools like Prometheus and Grafana, further we checked the logs of the application using logging tools like ElasticSearch, Fluent-bit and Kibana. For details of the source code please visit https://github.com/namrata-aatmani/productionteam.git.
 
 ### Software Tools.
 
