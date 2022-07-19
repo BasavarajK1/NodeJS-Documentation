@@ -87,7 +87,8 @@ Here we used the same pipeline script like qa-pipeline. The job will pull the la
 
 ![Monitoring](https://github.com/BasavarajK1/NodeJS-Documentation/blob/main/monitoring.png)
 
-1. Prometheus
+1. Prometheus:- 
+
 Prometheus is a free software application used for event monitoring and alerting thus Prometheus is an open-source systems monitoring and alerting toolkit. A typical monitoring platform with Prometheus is composed of multiple tools:
 
 - Prometheus server: The main Prometheus server which scrapes and stores time series data
@@ -103,7 +104,8 @@ Prometheus working procedure:-
 - Prometheus stores data locally on disk, which helps for fast data storage and fast querying but ability to store metrics in remote storage.
 - Each Prometheus server is standalone, not depending on network storage or other remote services.
 
-2. Grafana
+2. Grafana:- 
+
 Grafana is an open-source observability platform for visualizing metrics, logs, and traces collected from your applications. It’s a cloud-native solution for quickly assembling data dashboards that let you inspect and analyze your stack.
 Grafana connects to a variety of data sources such as Prometheus, InfluxDB, ElasticSearch, and traditional relational database engines. Complex dashboards are created by using these sources to select relevant fields from your data. Dashboards can incorporate a varied range of visualization components such as graphs, heat maps, and histograms.
 
