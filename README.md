@@ -95,7 +95,8 @@ Prometheus is a free software application used for event monitoring and alerting
 - Push gateway: A push gateway for supporting short-lived jobs
 - Node Exporters: Special-purpose exporters for services like HAProxy, StatsD, Graphite, etc.
 - Alertmanager: An alertmanager to handle alerts.
-Prometheus working procedure.
+
+Prometheus working procedure:-
 - Prometheus collects data in the form of time series. The time series are built through a pull model:
 - The Prometheus server queries(scrape) a list of data sources (sometimes called exporters) at a specific polling frequency
 - Prometheus data is stored in the form of metrics, with each metric having a name that is used for referencing and querying it
