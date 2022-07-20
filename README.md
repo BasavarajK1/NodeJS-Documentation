@@ -37,7 +37,7 @@ In this project we used NodeJs web application to automate the infrastructure se
 - Grafana:- Grafana is a multi-platform open source analytics and interactive visualization web application. It provides charts, graphs, and alerts for the web when connected to supported data sources.
 
 ### Project Overview.
-![Project](https://github.com/BasavarajK1/NodeJS-Documentation/blob/main/infrastructure.png)
+![Project](https://github.com/BasavarajK1/NodeJS-Documentation/blob/main/infrastructure-new.png)
 
 #### Step 1
 ##### Creation of VPC and EKS Cluster using Terraform and GitHub Configuration.
