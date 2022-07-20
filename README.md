@@ -92,8 +92,8 @@ Here we used the same pipeline script like qa-pipeline. The job will pull the la
 Prometheus is a free software application used for event monitoring and alerting thus Prometheus is an open-source systems monitoring and alerting toolkit. A typical monitoring platform with Prometheus is composed of multiple tools:
 
 - Prometheus server: The main Prometheus server which scrapes and stores time series data
-- Client libraries: Client libraries for instrumenting application code
-- Push gateway: A push gateway for supporting short-lived jobs
+- Client libraries: Client libraries lets you define and expose internal metrics via an HTTP endpoint on your application’s instance. Prometheus Client libraries support multiple programming languages
+- Push gateway: Occasionally you will need to monitor components which cannot be scraped. The Prometheus Pushgateway allows you to push time series from short-lived service-level batch jobs to an intermediary job which Prometheus can scrape.
 - Node Exporters: Special-purpose exporters for services like HAProxy, StatsD, Graphite, etc.
 - Alertmanager: An alertmanager to handle alerts.
 
